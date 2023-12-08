@@ -32,6 +32,10 @@ void CSMain (uint3 id : SV_DispatchThreadID)
     {
         newWaveHeight = 0;
     }
+    if (ObstacleTex[id.xy].y == 1)
+    {
+        newWaveHeight = -0.5;
+    }
         Np1State[id.xy] = float4(newWaveHeight, newWaveHeight, newWaveHeight, 1);
     
 
