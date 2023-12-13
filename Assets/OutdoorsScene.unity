@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2167.7373, g: 2279.2012, b: 3328.6367, a: 1}
+  m_IndirectSpecularColor: {r: 2158.3271, g: 2262.8633, b: 3286.4219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1241,8 +1241,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
-  m_LocalRotation: {x: -0.0037861022, y: 0.9002784, z: -0.43522778, w: -0.007831515}
-  m_LocalPosition: {x: 1.2877665, y: 9.287862, z: 7.1857376}
+  m_LocalRotation: {x: 0.31716284, y: 0.019908067, z: -0.00666127, w: 0.9481387}
+  m_LocalPosition: {x: 1.569184, y: 11.002675, z: -14.550383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3b773f843f757479c377d5cd438727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WaveEqMaterial: {fileID: 2100000, guid: b7621c9202e2ffd4ba3a370cef6f994d, type: 2}
+  WaveEqMaterial: {fileID: 2100000, guid: ca8f6c274e72ce84a97d9253fb6b3c37, type: 2}
   WaveEq: {fileID: 7200000, guid: fc1cffd93319d464a97c9034655eafc8, type: 3}
   NState: {fileID: 0}
   Nm1State: {fileID: 0}
@@ -1497,7 +1497,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b7621c9202e2ffd4ba3a370cef6f994d, type: 2}
+  - {fileID: 2100000, guid: ca8f6c274e72ce84a97d9253fb6b3c37, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
